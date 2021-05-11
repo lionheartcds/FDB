@@ -5,19 +5,9 @@ img{width:100%;height:auto;}
 input,select,a,button{outline:none;text-decoration:none;border:none;}
 .outline{width:100%;height:auto;float:left;}
 .outblock{width:1347px;height:auto;display:block;margin:0 auto;}
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgba(90, 90, 90);
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.2);
-  }
-
+::-webkit-scrollbar {width: 10px;height: 10px;} 
+::-webkit-scrollbar-thumb {background: rgba(90, 90, 90,0.5);}
+::-webkit-scrollbar-track {background: rgba(0, 0, 0, 0.2);}
 
 
 #activity,#chat{display:none;}
@@ -42,15 +32,15 @@ position: relative;transform:translateY(50%);top:50%;background-color:black;}
 /*Header*/
 
 /*Banner*/
-.banner-block{width:100%;height:100vh;float:left;background:url(../img/index-banner-00.jpg);}
-.banner-block>div{width:1400px;height:auto;display:block;margin:0 auto;margin-top:50px;}
+.banner-block{width:100%;height:100vh;float:left;background:url(../img/index-banner-00.jpg) no-repeat;background-position:center;}
+.banner-block>div.outblock{margin-top:50px;}
 .banner-block>div>div.title{width:100%;height:auto;float:left;text-align:center;margin-bottom:18px;font-size:48px;color:white;font-weight:bold;}
 .banner-block>div>div.sub{width:100%;height:auto;float:left;text-align:center;margin-bottom:18px;font-size:16px;color:white;margin-bottom:32px;}
 .banner-block>div>div.outline>a.more{width:152px;height:auto;padding:8.5px 0;font-size:14px;display:block;margin:0 auto; border-radius: 8px;color:white;text-align:center;background-image: linear-gradient(to top, #62ffff, #3ea9cc);}
 /*Banner*/
 
 /*Join*/
-.join-setp-block{width:1276px;height:214px;background: rgba(0,0,0,0.5);border-radius: 6px;box-shadow:0 4px 9px rgba(0,0,0,0.3);margin:-170px auto 0 auto;padding:43px 45px;margin-bottom:115px;}
+.join-step-block{width:1276px;height:214px;background: rgba(0,0,0,0.5);border-radius: 6px;box-shadow:0 4px 9px rgba(0,0,0,0.3);margin:-170px auto 0 auto;padding:43px 45px;margin-bottom:115px;}
 .join-step-title{width:auto;height:calc(100% - 90px);float: left;font-size:45px;font-weight:bold;padding:45px 0;margin-right:53px;}
 .join-step-main-block{width:auto;height:100%;float: left;}
 .join-step-main-block>div{width:296px;height:auto;margin-right:10px;float: left;}
@@ -63,13 +53,12 @@ position: relative;transform:translateY(50%);top:50%;background-color:black;}
 
 /*info*/
 .info-outline{margin-bottom:115px;}
-.info-block{width:1176px;height:auto;display:block;margin:0 auto;}
-.info-main-pic{width:555px;height:560px;float: left;margin-right:50px;}
-.info-main{width:calc(100% - 605px);height:560px;float:left;}
+.info-main-pic{width:50%;max-width:555px;height:auto;float: left;margin-right:50px;}
+.info-main{width:calc(50% - 50px);height:auto;float:right;}
 .info-main>div.title{width:100%;height:auto;float: left;font-weight:bold;font-size:48px;}
 .info-main>div.sub{width:100%;height:auto;float: left;font-weight:bold;font-size:16px;color: #E5E5E5;margin-bottom:30px;}
 .info-main>div.main{width:100%;height:auto;float: left;}
-.info-main>div.main>div{width:calc(50% - 7.5px);height:auto;min-height:179px;float:left;margin-right:15px;margin-bottom:15px;border: 2px solid;border-image: linear-gradient(180deg, #62FFFF 0%, #3EA9CC 100%) 1;
+.info-main>div.main>div{width:calc(50% - 7.5px);height:auto;min-height:179px;float:left;margin-right:15px;margin-bottom:15px;border-style:solid;border-width:2px;border-image:linear-gradient(180deg, #62FFFF 0%, #3EA9CC 100%) 1;
 box-sizing: border-box;border-radius: 8px;padding:40px 20px 40px 20px;cursor:pointer;}
 .info-main>div.main>div:hover{background-image: linear-gradient(to top, #3ea9cc, #62ffff);}
 
@@ -80,6 +69,7 @@ box-sizing: border-box;border-radius: 8px;padding:40px 20px 40px 20px;cursor:poi
 .info-main>div.main>div>div.title{width:100%;height:auto;float:left;font-size:24px;margin-bottom:15px;}
 .info-main>div.main>div>div.sub{width:100%;height:auto;float:left;font-size:15px;color: #E5E5E5;}
 .info-btn{width:100%;height:auto;float: left;font-size:24px;font-weight:bold;color: #62FFFF;line-height:22px;}
+.info-btn>svg{position:relative;transform:translateY(10%);}
 /*info*/
 
 
