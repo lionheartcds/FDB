@@ -1,4 +1,8 @@
-
+/*1346以上*/
+@media screen and (min-width: 1346px) {
+    .info-main-title>div{width:calc(50% - 50px);}
+}
+/*1346以上*/
 
 
 /*1024*/
@@ -25,7 +29,7 @@
     .info-main>div.main>div>div.sub{width:100%;height:auto;float:left;font-size:14px;color: #E5E5E5;}
 
     /*News*/
-    .news-main{width:100%;max-width:296px;height:auto;float:left;margin-right:20px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
+    .news-main{width:100%;max-width:calc(33% - 28px);height:auto;float:left;margin-right:10px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
     .news-main>div.pic{height:100%;max-height:240px;overflow:hidden;}
     .news-main>div.pic>img{height:100%;}
 
@@ -80,6 +84,16 @@
 .personal-edit-info-block>div.info-input-block>div.main>input.input{width:100%;font-size:14px;}
 .personal-edit-info-block>div.info-input-block>div.main>div.info{font-size:14px;}
 /*personal*/
+
+/*DashBoard*/
+.dashboard-chart-block{max-width:calc(60% - 4px);margin-right:8px;}
+.dashboard-coin-block{max-width:calc(40% - 4px);}
+.refund-detail-block{width:100%;padding:0 0;}
+/*DashBoard*/
+
+
+
+
 }
 /*1024*/
 
@@ -117,6 +131,9 @@
     .info-main>div.main>div>div.sub{width:100%;height:auto;float:left;font-size:12px;color: #E5E5E5;}
     .info-btn{font-size:17px;}
     .info-btn>svg{width: 17px !important;;height: 17px !important;position:relative;transform:translateY(10%);}
+    .info-main-title>div>div.title{font-size:36px;}
+    .info-main-title>div>div.sub{font-size:14px;}
+
 
     /*News*/
     .news-title{font-size:36px;}
@@ -205,6 +222,23 @@
 .personal-edit-info-block>div.info-input-block>div.main>input.input{width:100%;font-size:14px;}
 .personal-edit-info-block>div.info-input-block>div.main>div.info{font-size:14px;}
 /*personal*/
+
+/*DashBoard*/
+.dashboard-chart-block{max-width:calc(60% - 4px);margin-right:8px;}
+.dashboard-coin-block{max-width:calc(40% - 4px);}
+.refund-detail-block{width:100%;padding:0 0;}
+.dashboard-coin-block>div.exchange{width:calc(100% - 30px);padding:15px;}
+.dashboard-coin-block>div.exchange>div.title{font-size:18px;}
+.dashboard-coin-block>div.exchange>a.drop>svg{width:78px;position: relative;transform:translateY(-10%);}
+.dashboard-coin-block>div.earn{width:calc(100% - 20px);height:auto;padding:15px 10px;}
+.dashboard-coin-block>div.earn>div.main>div.title{margin-right:20px;}
+.dashboard-coin-block>div.earn>div.main>div.status>span{display:none;}
+.dashboard-coin-block>div.earn>div.main>div.status>svg{display:block;position: relative;transform:translateY(75%);}
+/*DashBoard*/
+
+
+
+
 }
 /*768*/ 
 
@@ -233,16 +267,18 @@
     .join-step-number{font-size:40px;}
 
     /*Info*/
-    .info-main-pic{width:100%;margin-right:0px;}
+    .info-main-pic{width:100%;margin-right:0px;margin-top:-30px;}
     .info-main{width:100%;height:auto;float:left;}
-    .info-main>div.title{font-size:36px;}
-    .info-main>div.sub{font-size:14px;}
+    
     .info-main>div.main>div{min-height:auto;margin-right:10px;margin-bottom:10px;padding:20px 10px 20px 10px;}
     .info-main>div.main>div>div.title{width:100%;height:auto;float:left;font-size:14px;margin-bottom:15px;}
     .info-main>div.main>div>div.sub{width:100%;height:auto;float:left;font-size:12px;color: #E5E5E5;}
     .info-btn{font-size:17px;}
     .info-btn>svg{width: 17px !important;;height: 17px !important;position:relative;transform:translateY(10%);}
     .info-outline{margin-bottom:40px;}
+    .info-main-title>div{width:100%;text-align:center;}
+    .info-main-title>div>div.title{font-size:36px;margin-bottom:20px;}
+    .info-main-title>div>div.sub{font-size:14px;}
 
     /*News*/
     .news-title{font-size:36px;}
@@ -250,8 +286,8 @@
     .news-main:nth-last-child(1){margin-right:20px;}
     .news-main>div.pic{height:100%;max-height:240px;overflow:hidden;}
     .news-main>div.pic>img{height:100%;}
-    .outline.scroll{overflow-y:scroll;}
-    .outblock.full-news{width:2000px;max-width:2000px;margin:0 0 0 2.5%;float:left;overflow-x:scroll;overflow-y:hidden;height:440px;}
+    .outline.scroll{overflow-y:scroll;height:460px;}
+    .outblock.full-news{width:2000px;max-width:2000px;margin:0 0 0 2.5%;float:left;overflow-x:scroll;overflow-y:hidden;height:460px;}
     .news-outline{margin-bottom:50px;}
     /*Footer*/
     
@@ -265,6 +301,7 @@
 /*首頁*/
 
 /*About*/
+.banner-block.about{max-height:450px;margin-bottom:0px;}
 .about-banner-title-block{margin-top:100px !important;}
 .news-title.about{font-size:20px;}
 .news-title{font-size:36px;}
@@ -349,6 +386,12 @@
 .personal-edit-info-block>div.info-input-block>div.main>div.info{font-size:14px;}
 /*personal*/
 
+/*DashBoard*/
+.dashboard-chart-block{max-width:100%;margin-right:0px;margin-bottom:10px;}
+.dashboard-coin-block{max-width:100%;}
+.refund-detail-block{width:100%;padding:0 0;}
+/*DashBoard*/
+
 }
 /*540*/
 
@@ -362,7 +405,7 @@
         /*Header*/
     
         /*Banner*/
-        .banner-block{max-height:518px;}
+        .banner-block{max-height:400px;}
         .banner-block>div>div.title{font-size:28px;}
         .banner-block>div>div.sub{font-size:14px;margin-bottom:18px;}
     
@@ -377,10 +420,8 @@
         .join-step-number{font-size:40px;}
     
         /*Info*/
-        .info-main-pic{width:100%;margin-right:0px;}
+        .info-main-pic{width:100%;margin-right:0px;margin-top:-30px;}
         .info-main{width:100%;height:auto;float:left;}
-        .info-main>div.title{font-size:36px;}
-        .info-main>div.sub{font-size:14px;}
         .info-main>div.main>div{min-height:auto;margin-right:0px;margin-bottom:0px;padding:40px 10px 40px 10px;width:100%;display:none;}
         .info-main>div.main>div.active{display:block;margin-bottom:30px;background-image: linear-gradient(to top, #3ea9cc, #62ffff);}
         .info-main>div.main>div:nth-last-child(2){margin-bottom:0px;}
@@ -389,6 +430,10 @@
         .info-btn{font-size:17px;}
         .info-btn>svg{width: 17px !important;;height: 17px !important;position:relative;transform:translateY(10%);}
         .info-outline{margin-bottom:40px;}
+        .info-main-title>div{width:100%;text-align:center;}
+        .info-main-title>div>div.title{font-size:36px;margin-bottom:20px;}
+        .info-main-title>div>div.sub{font-size:14px;}
+        
     
         /*News*/
         .news-title{font-size:36px;}
@@ -414,8 +459,9 @@
 /*首頁*/
 
 /*About*/
+    .banner-block.about{max-height:500px;margin-bottom:0px;}
     .about-banner-title-block{margin-top:100px !important;}
-    .news-title.about{font-size:20px;}
+    .news-title.about{font-size:18px;}
     .news-title{font-size:36px;}
     .about-pagging-main-block{font-size:16px;}
 /*About*/
@@ -503,5 +549,9 @@
 .personal-edit-info-block>div.info-input-block>div.main>input.input{width:100%;font-size:14px;}
 .personal-edit-info-block>div.info-input-block>div.main>div.info{font-size:14px;}
 /*personal*/
+
+.dashboard-chart-block{max-width:100%;margin-right:0px;margin-bottom:10px;}
+.dashboard-coin-block{max-width:100%;}
+.refund-detail-block{width:100%;padding:0 0;}
 }
 /*320*/
