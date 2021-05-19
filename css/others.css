@@ -162,7 +162,8 @@
 .refund-detail-filter-main>a.icon>svg{position: relative;transform:translateY(-50%);top:50%;display:block;margin:0 auto;}
 .refund-detail-filter-date{width:auto;height:30px;float: left;}
 .refund-detail-filter-date>div.title{width:auto;height:auto;float: left;font-size:14px;line-height:30px;color:#62ffff;}
-.refund-detail-filter-date>input.date{width:260px;height:30px;border: 1px solid #D3DCE6;box-sizing: border-box;border-radius: 5px;}
+.refund-detail-filter-date>input.date{width:120px;height:30px;border: 1px solid #D3DCE6;box-sizing: border-box;border-radius: 5px;margin-right:10px;}
+.refund-detail-filter-date>input.date:nth-last-child(1){margin-right:0px;margin-left:10px;}
 
 .refund-detail-info-block{width:100%;height:auto;float: left;border-spacing:0;margin-bottom:36px;}
 .refund-detail-info-title{width:100%;height:auto;font-size:16px;font-weight:500;color:#e5e5e5;line-height:45px;margin-bottom:5px;text-align:left;}
