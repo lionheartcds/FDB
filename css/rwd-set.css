@@ -234,6 +234,10 @@
 .dashboard-coin-block>div.earn>div.main>div.title{margin-right:20px;}
 .dashboard-coin-block>div.earn>div.main>div.status>span{display:none;}
 .dashboard-coin-block>div.earn>div.main>div.status>svg{display:block;position: relative;transform:translateY(75%);}
+
+.refund-detail-filter-block{display:none;}
+.refund-detail-info-block{display:none;}
+.mobile-refund-detail-info-block{display:block;}
 /*DashBoard*/
 
 
@@ -387,9 +391,15 @@
 /*personal*/
 
 /*DashBoard*/
+.refund-detail-menu-block>a.menu{font-size:12px;margin-right:15px;}
 .dashboard-chart-block{max-width:100%;margin-right:0px;margin-bottom:10px;}
 .dashboard-coin-block{max-width:100%;}
 .refund-detail-block{width:100%;padding:0 0;}
+.refund-detail-filter-block{display:none;}
+.refund-detail-info-block{display:none;}
+.mobile-refund-detail-info-block{display:block;}
+.mobile-refund-main-block{width:calc(100% - 20px);margin:0 0 10px 0;padding:10px;}
+.mobile-refund-btn{width:calc(25% - 7.5px);font-size:12px;}
 /*DashBoard*/
 
 }
@@ -550,8 +560,19 @@
 .personal-edit-info-block>div.info-input-block>div.main>div.info{font-size:14px;}
 /*personal*/
 
+/*DashBoard*/
+.refund-detail-menu-block>a.menu{font-size:12px;margin-right:15px;}
 .dashboard-chart-block{max-width:100%;margin-right:0px;margin-bottom:10px;}
 .dashboard-coin-block{max-width:100%;}
 .refund-detail-block{width:100%;padding:0 0;}
+.refund-detail-filter-block{display:none;}
+.refund-detail-info-block{display:none;}
+.mobile-refund-detail-info-block{display:block;}
+.mobile-refund-main-block{width:calc(100% - 20px);margin:0 0 10px 0;padding:10px;}
+.mobile-refund-btn{width:calc(25% - 7.5px);font-size:12px;}
+/*DashBoard*/
+
+
+
 }
 /*320*/
