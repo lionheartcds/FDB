@@ -107,7 +107,7 @@
     /*Header*/
 
     /*Banner*/
-    .banner-block{max-height:518px;background-position:center -130px;}
+    .banner-block{max-height:518px;}
     .banner-block>div>div.title{font-size:28px;}
     .banner-block>div>div.sub{font-size:14px;margin-bottom:18px;}
 
