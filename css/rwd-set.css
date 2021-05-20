@@ -10,7 +10,7 @@
     .outblock{width:95%;max-width:1300px;height:auto;display:block;margin:0 auto;}
 /*首頁*/
     /*Banner*/
-    .banner-block{max-height:518px;background-position:center -100px;}
+    .banner-block{max-height:700px;}
 
 
     /*Join*/
@@ -104,6 +104,10 @@
     /*Header*/
     .header-block{width:95%;margin:0 2.5%;padding:0;}
     .menu-block.head{display:none;}
+    .header-sub-block>a{margin-right:15px;}
+    .header-sub-block>a.register{margin-right:15px;}
+    .header-sub-block>a:nth-last-child(1){margin-left:15px;}
+    .mobile-ham{display:block;}
     /*Header*/
 
     /*Banner*/
@@ -253,6 +257,10 @@
     /*Header*/
     .header-block{width:95%;margin:0 2.5%;padding:0;}
     .menu-block.head{display:none;}
+    .header-sub-block>a{margin-right:15px;}
+    .header-sub-block>a.register{margin-right:15px;}
+    .header-sub-block>a:nth-last-child(1){margin-left:15px;}
+    .mobile-ham{display:block;}
     /*Header*/
 
     /*Banner*/
@@ -412,6 +420,10 @@
         /*Header*/
         .header-block{width:95%;margin:0 2.5%;padding:0;}
         .menu-block.head{display:none;}
+        .header-sub-block>a{margin-right:15px;}
+        .header-sub-block>a.register{margin-right:15px;}
+        .header-sub-block>a:nth-last-child(1){margin-left:15px;}
+        .mobile-ham{display:block;}
         /*Header*/
     
         /*Banner*/
