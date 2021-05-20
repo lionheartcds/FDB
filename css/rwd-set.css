@@ -147,7 +147,7 @@
     .news-main>div.pic>img{height:100%;}
     .outline.scroll{overflow-y:scroll;}
     .outblock.full-news{width:2000px;max-width:2000px;margin:0 0 0 2.5%;float:left;overflow-x:scroll;overflow-y:hidden;height:440px;}
-    
+    .news-all-sum-sub-block.chat{display:none;}
     /*Footer*/
     
      footer{width:calc(100% - 60px);margin-top:70px;padding:10px 30px 0 30px;}
@@ -301,6 +301,7 @@
     .outline.scroll{overflow-y:scroll;height:460px;}
     .outblock.full-news{width:2000px;max-width:2000px;margin:0 0 0 2.5%;float:left;overflow-x:scroll;overflow-y:hidden;height:460px;}
     .news-outline{margin-bottom:50px;}
+    .news-all-sum-sub-block.chat{display:none;}
     /*Footer*/
     
      footer{width:calc(100% - 20px);margin-top:70px;padding:10px 10px 0 10px;}
@@ -528,6 +529,7 @@
 .news-main.activity>div.pic{max-height:340px;}
 .news-all-sum-main-block.chat{width:100%;max-width:100%;margin-right:0px;margin-bottom:30px;}
 .news-all-sum-sub-block.chat{width:calc(100% - 30px);max-width:100%;}
+.news-all-sum-sub-block.chat{display:none;}
 /*News*/
 
 /*personal*/
