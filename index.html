@@ -5,12 +5,59 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" >
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/rwd-set.css">
-
+    <link rel="stylesheet" href="css/flickity.css">
   </head>
 
   <body>
+
+    <!--Fixed右側開始-->
+    <div class="fixed-right">
+      <div id="fixed-all" style="display:none;">
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/wc-icon.png" alt="">
+      </a>
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/telegram.png" alt="">
+      </a>
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/mail.png" alt="">
+      </a>
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/qq.png" alt="">
+      </a>
+    </div>
+
+      <svg width="77" height="77" viewBox="0 0 77 77" fill="none" xmlns="http://www.w3.org/2000/svg" id="fixed-btn">
+        <g filter="url(#filter0_d)">
+        <path d="M4 34.5C4 15.4462 19.4462 0 38.5 0H66.7273C70.1916 0 73 2.8084 73 6.27273V34.5C73 53.5538 57.5538 69 38.5 69C19.4462 69 4 53.5538 4 34.5Z" fill="url(#paint0_linear)"/>
+        <path d="M45.4 19.9333H33.1333C28.0595 19.9333 23.9333 24.0595 23.9333 29.1333V49.0667C23.9333 49.4733 24.0949 49.8634 24.3825 50.1509C24.67 50.4385 25.06 50.6 25.4667 50.6H45.4C50.4738 50.6 54.6 46.4738 54.6 41.4V29.1333C54.6 24.0595 50.4738 19.9333 45.4 19.9333ZM51.5333 41.4C51.5333 44.7825 48.7825 47.5333 45.4 47.5333H27V29.1333C27 25.7508 29.7508 23 33.1333 23H45.4C48.7825 23 51.5333 25.7508 51.5333 29.1333V41.4Z" fill="white"/>
+        <path d="M31.6 30.6666H46.9333V33.7333H31.6V30.6666ZM31.6 36.8H42.3333V39.8666H31.6V36.8Z" fill="white"/>
+        </g>
+        <defs>
+        <filter id="filter0_d" x="0" y="0" width="77" height="77" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <linearGradient id="paint0_linear" x1="38.5" y1="0" x2="38.5" y2="69" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#62FFFF"/>
+        <stop offset="1" stop-color="#3FA9F5"/>
+        </linearGradient>
+        </defs>
+        </svg>       
+    </div>
+
+    
+    <!--Fixed右側 結束-->
+
     <!--Outline開始-->
     <div class="outline">
+
+      
       
         <!--Header開始-->
         <div class="header-block">
@@ -73,13 +120,51 @@
 
 
         <!--Banner開始-->
-      <div class="banner-block">
-        <div class="outblock">
-          <div class="title">返多寶-虛擬貨幣反傭的先驅</div>
-          <div class="sub">致力打造全最大虛擬貨幣反傭平台，<br>讓虛擬貨幣交易變得更優惠<br>讓消費者不在為了不透明的手續費而煩惱</div>
-          <div class="outline"><a href="" class="more">了解更多</a></div>
-        </div>
-      </div>
+          <div class="carousel"  data-flickity='{ "autoPlay": true }'>
+            <div class="carousel-cell banner-block">
+              <div class="outblock">
+                <div class="title">返多寶-虛擬貨幣反傭的先驅</div>
+                <div class="sub">致力打造全最大虛擬貨幣反傭平台，<br>讓虛擬貨幣交易變得更優惠<br>讓消費者不在為了不透明的手續費而煩惱</div>
+                <div class="outline"><a href="" class="more">了解更多</a></div>
+              </div>
+            </div>
+
+            <div class="carousel-cell banner-block">
+              <div class="outblock">
+                <div class="title">返多寶-虛擬貨幣反傭的先驅</div>
+                <div class="sub">致力打造全最大虛擬貨幣反傭平台，<br>讓虛擬貨幣交易變得更優惠<br>讓消費者不在為了不透明的手續費而煩惱</div>
+                <div class="outline"><a href="" class="more">了解更多</a></div>
+              </div>
+            </div>
+
+            <div class="carousel-cell banner-block">
+              <div class="outblock">
+                <div class="title">返多寶-虛擬貨幣反傭的先驅</div>
+                <div class="sub">致力打造全最大虛擬貨幣反傭平台，<br>讓虛擬貨幣交易變得更優惠<br>讓消費者不在為了不透明的手續費而煩惱</div>
+                <div class="outline"><a href="" class="more">了解更多</a></div>
+              </div>
+            </div>
+
+            <div class="carousel-cell banner-block">
+              <div class="outblock">
+                <div class="title">返多寶-虛擬貨幣反傭的先驅</div>
+                <div class="sub">致力打造全最大虛擬貨幣反傭平台，<br>讓虛擬貨幣交易變得更優惠<br>讓消費者不在為了不透明的手續費而煩惱</div>
+                <div class="outline"><a href="" class="more">了解更多</a></div>
+              </div>
+            </div>
+
+          </div>
+
+          <script src="js/flickity.pkgd.min.js"></script>
+          <script>
+            $('.main-carousel').flickity({
+                // options
+              cellAlign: 'left',
+              contain: true
+            });     
+          </script>
+
+      
       <!--Banner結束-->
 
       <!--加入我們 開始-->
@@ -128,6 +213,12 @@
             <img id="bonues-visual" src="img/index-intro-01.jpg" alt="" style="display:none;">
             <img id="perfect-control" src="img/index-intro-02.jpg" alt="" style="display:none;">
             <img id="servicr-team" src="img/index-intro-03.jpg" alt="" style="display:none;">
+            <div class="info-slider">
+              <div id="unqi-account-slide" class="active"></div>
+              <div id="bonues-visual-slide"></div>
+              <div id="perfect-control-slide"></div>
+              <div id="servicr-team-slide"></div>
+            </div>
           </div>
 
           <div class="info-main">
@@ -274,33 +365,33 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("#unqi-account-btn").click(function(){
-    $(this).addClass('active');
-    $("#bonues-visual-btn,#perfect-control-btn,#servicr-team-btn").removeClass('active');
+  $("#unqi-account-btn,#unqi-account-slide").click(function(){
+    $("#unqi-account-btn,#unqi-account-slide").addClass('active');
+    $("#bonues-visual-btn,#perfect-control-btn,#servicr-team-btn,#bonues-visual-slide,#perfect-control-slide,#servicr-team-slide").removeClass('active');
     $("#bonues-visual").hide();
     $("#perfect-control").hide();
     $("#servicr-team").hide();
     $("#unqi-account").fadeIn()
   });
-  $("#bonues-visual-btn").click(function(){
-    $(this).addClass('active');
-    $("#unqi-account-btn,#perfect-control-btn,#servicr-team-btn").removeClass('active');
+  $("#bonues-visual-btn,#bonues-visual-slide").click(function(){
+    $("#bonues-visual-btn,#bonues-visual-slide").addClass('active');
+    $("#unqi-account-btn,#perfect-control-btn,#servicr-team-btn,#unqi-account-slide,#perfect-control-slide,#servicr-team-slide").removeClass('active');
     $("#unqi-account").hide();
     $("#perfect-control").hide();
     $("#servicr-team").hide();
     $("#bonues-visual").fadeIn()
   });
-  $("#perfect-control-btn").click(function(){
-    $(this).addClass('active');
-    $("#unqi-account-btn,#bonues-visual-btn,#servicr-team-btn").removeClass('active');
+  $("#perfect-control-btn,#perfect-control-slide").click(function(){
+    $("#perfect-control-btn,#perfect-control-slide").addClass('active');
+    $("#unqi-account-btn,#bonues-visual-btn,#servicr-team-btn,#unqi-account-slide,#bonues-visual-slide,#servicr-team-slide").removeClass('active');
     $("#bonues-visual").hide();
     $("#unqi-account").hide();
     $("#servicr-team").hide();
     $("#perfect-control").fadeIn()
   });
-  $("#servicr-team-btn").click(function(){
-    $(this).addClass('active');
-    $("#unqi-account-btn,#bonues-visual-btn,#perfect-control-btn").removeClass('active');
+  $("#servicr-team-btn,#servicr-team-slide").click(function(){
+    $("#servicr-team-btn,#servicr-team-slide").addClass('active');
+    $("#unqi-account-btn,#unqi-account-slide,#bonues-visual-btn,#bonues-visual-slide,#perfect-control-btn,#perfect-control-slide").removeClass('active');
     $("#bonues-visual").hide();
     $("#perfect-control").hide();
     $("#unqi-account").hide();
@@ -314,6 +405,15 @@ $(document).ready(function(){
   $(document).ready(function(){
     $(".mobile-ham").click(function(){
       $(".mobile-drop").slideToggle();
+    });
+  
+  });
+  </script>
+
+<script>
+  $(document).ready(function(){
+    $("#fixed-btn").click(function(){
+      $("#fixed-all").slideToggle();
     });
   
   });
