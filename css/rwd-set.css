@@ -89,6 +89,10 @@
 .dashboard-chart-block{max-width:calc(60% - 44px);margin-right:8px;}
 .dashboard-coin-block{max-width:calc(40% - 4px);}
 .refund-detail-block{width:100%;padding:0 0;}
+
+
+.dashboard-chart-filiter-block>div.menu>a{font-size:14px;}
+.dashboard-chart-filiter-block>div.menu{width:auto;margin-bottom:10px;}
 /*DashBoard*/
 
 
@@ -242,6 +246,10 @@
 .refund-detail-filter-block{display:none;}
 .refund-detail-info-block{display:none;}
 .mobile-refund-detail-info-block{display:block;}
+
+.dashboard-chart-filiter-block>div.menu{width:auto;margin-bottom:10px;}
+.dashboard-chart-filiter-block>div.menu>a{font-size:14px;}
+.dashboard-chart-filiter-block>div.btn>select{width:60px;}
 /*DashBoard*/
 
 
@@ -409,6 +417,13 @@
 .mobile-refund-detail-info-block{display:block;}
 .mobile-refund-main-block{width:calc(100% - 20px);margin:0 0 10px 0;padding:10px;}
 .mobile-refund-btn{width:calc(25% - 7.5px);font-size:12px;}
+
+.dashboard-coin-block>div.earn>div.main>div.status>span{display:none;}
+.dashboard-coin-block>div.earn>div.main>div.status>svg{display:block;position: relative;transform:translateY(75%);}
+
+.dashboard-chart-filiter-block>div.menu{width:auto;margin-bottom:10px;}
+.dashboard-chart-filiter-block>div.menu>a{font-size:12px;}
+.dashboard-chart-filiter-block>div.btn>select{width:79px;}
 /*DashBoard*/
 
 }
@@ -584,6 +599,19 @@
 .mobile-refund-detail-info-block{display:block;}
 .mobile-refund-main-block{width:calc(100% - 20px);margin:0 0 10px 0;padding:10px;}
 .mobile-refund-btn{width:calc(25% - 7.5px);font-size:12px;}
+
+.dashboard-coin-block>div.earn>div.main>div.status>span{display:none;}
+.dashboard-coin-block>div.earn>div.main>div.status>svg{display:block;position: relative;transform:translateY(75%);}
+.dashboard-chart-filiter-block>div.menu>a{width:30%;margin:0 0 20px 0;text-align:center;}
+.dashboard-chart-filiter-block>div.menu>a:nth-last-child(4){width:10%;margin:0 0 10px 0;text-align:center;}
+
+
+.dashboard-chart-filiter-block>div.menu{width:100%;}
+.dashboard-chart-title>div.block{width:100%;margin-right:0px;margin-bottom:20px;}
+.dashboard-chart-title>div.block:nth-last-child(1){margin-bottom:10px;}
+.dashboard-chart-block{max-height:1000px;}
+.dashboard-chart-title>div.block>div.title>div.word{font-size:25px;}
+.dashboard-chart-title>div.block>div.sub{font-size:38px;}
 /*DashBoard*/
 
 
