@@ -12,6 +12,58 @@
   </head>
 
   <body>
+    <!--Fixed右側開始-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#fixed-btn").click(function(){
+          $("#fixed-all").slideToggle();
+        });
+      
+      });
+      </script>
+    <div class="fixed-right">
+      <div id="fixed-all" style="display:none;">
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/wc-icon.png" alt="">
+      </a>
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/telegram.png" alt="">
+      </a>
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/mail.png" alt="">
+      </a>
+      <a href="javascript:void(0)" class="fixed-socail-icon">
+        <img src="img/qq.png" alt="">
+      </a>
+    </div>
+
+      <svg width="77" height="77" viewBox="0 0 77 77" fill="none" xmlns="http://www.w3.org/2000/svg" id="fixed-btn">
+        <g filter="url(#filter0_d)">
+        <path d="M4 34.5C4 15.4462 19.4462 0 38.5 0H66.7273C70.1916 0 73 2.8084 73 6.27273V34.5C73 53.5538 57.5538 69 38.5 69C19.4462 69 4 53.5538 4 34.5Z" fill="url(#paint0_linear)"/>
+        <path d="M45.4 19.9333H33.1333C28.0595 19.9333 23.9333 24.0595 23.9333 29.1333V49.0667C23.9333 49.4733 24.0949 49.8634 24.3825 50.1509C24.67 50.4385 25.06 50.6 25.4667 50.6H45.4C50.4738 50.6 54.6 46.4738 54.6 41.4V29.1333C54.6 24.0595 50.4738 19.9333 45.4 19.9333ZM51.5333 41.4C51.5333 44.7825 48.7825 47.5333 45.4 47.5333H27V29.1333C27 25.7508 29.7508 23 33.1333 23H45.4C48.7825 23 51.5333 25.7508 51.5333 29.1333V41.4Z" fill="white"/>
+        <path d="M31.6 30.6666H46.9333V33.7333H31.6V30.6666ZM31.6 36.8H42.3333V39.8666H31.6V36.8Z" fill="white"/>
+        </g>
+        <defs>
+        <filter id="filter0_d" x="0" y="0" width="77" height="77" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+        </filter>
+        <linearGradient id="paint0_linear" x1="38.5" y1="0" x2="38.5" y2="69" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#62FFFF"/>
+        <stop offset="1" stop-color="#3FA9F5"/>
+        </linearGradient>
+        </defs>
+        </svg>       
+    </div>
+
+    
+    <!--Fixed右側 結束-->
     <!--Outline開始-->
     <div class="outline">
         <!--Header開始-->
@@ -108,7 +160,7 @@
               </div>
               <div class="personal-main-name">Rusalba Ruiz</div>
               <div class="personal-main-sub">具有邀請碼認證會員</div>
-              <div class="personal-main-email">Rusalba542002@gmail.com<span>（尚未驗證）</span></div>
+              <div class="personal-main-email">Rusalba542002@gmail.com<span>（已認證會員？）</span></div>
               <a href="" class="personal-main-btn">返回返佣數量總覽</a>
 
 
@@ -295,7 +347,7 @@
                     <input type="text" class="input" value="Rusalba Ruiz">
                   </div>
                   <div class="main">
-                    <div class="title">使用者名稱</div>
+                    <div class="title">使用者信箱</div>
                     <div class="info">Rusalba542002@gmail.com<span>（尚未驗證）</span></div>
                   </div>
                   <div class="main">
