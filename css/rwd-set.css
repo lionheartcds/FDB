@@ -29,7 +29,7 @@
     .info-main>div.main>div>div.sub{width:100%;height:auto;float:left;font-size:14px;color: #E5E5E5;}
 
     /*News*/
-    .news-main{width:100%;max-width:calc(33% - 28px);height:auto;float:left;margin-right:10px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
+    .news-main{width:100%;max-width:calc(33% - 30px);height:auto;float:left;margin:5px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
     .news-main>div.pic{height:100%;max-height:240px;overflow:hidden;}
     .news-main>div.pic>img{height:100%;}
 
@@ -106,7 +106,7 @@
 
 /*768*/
 @media screen and (min-width: 750px) and (max-width: 999px) {
-    .outblock{width:95%;max-width:900px;height:auto;display:block;margin:0 auto;}
+    .outblock{width:95%;max-width:950px;height:auto;display:block;margin:0 auto;}
 /*首頁*/
     /*Header*/
     .header-block{width:95%;margin:0 2.5%;padding:0;}
@@ -137,23 +137,23 @@
     .info-main{width:calc(50% - 20px);height:auto;}
     .info-main>div.title{font-size:36px;}
     .info-main>div.sub{font-size:14px;}
-    .info-main>div.main>div{min-height:auto;margin-right:10px;margin-bottom:10px;padding:20px 10px 20px 10px;}
-    .info-main>div.main>div>div.title{width:100%;height:auto;float:left;font-size:14px;margin-bottom:15px;}
+    .info-main>div.main>div{min-height:109px;margin-right:10px;margin-bottom:10px;padding:10px 10px}
+    .info-main>div.main>div>div.title{width:100%;height:auto;float:left;font-size:14px;margin-bottom:5px;}
     .info-main>div.main>div>div.sub{width:100%;height:auto;float:left;font-size:12px;color: #E5E5E5;}
     .info-btn{font-size:17px;}
     .info-btn>svg{width: 17px !important;;height: 17px !important;position:relative;transform:translateY(10%);}
     .info-main-title>div>div.title{font-size:36px;}
     .info-main-title>div>div.sub{font-size:14px;}
+    .info-main-pic{margin-top:-110px;}
 
 
     /*News*/
     .news-title{font-size:36px;}
-    .news-main{width:100%;max-width:296px;height:auto;float:left;margin-right:20px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
-    .news-main:nth-last-child(1){margin-right:20px;}
+    .news-main{width:100%;max-width:calc(33% - 30px);height:auto;float:left;margin:5px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
     .news-main>div.pic{height:100%;max-height:240px;overflow:hidden;}
     .news-main>div.pic>img{height:100%;}
     .outline.scroll{overflow-y:scroll;}
-    .outblock.full-news{width:2000px;max-width:2000px;margin:0 0 0 2.5%;float:left;overflow-x:scroll;overflow-y:hidden;height:440px;}
+    .outblock.full-news{width:auto;height:auto;display:block;margin:0 auto;}
     .news-all-sum-sub-block.chat{display:none;}
     /*Footer*/
     
@@ -195,18 +195,23 @@
 /*Partner*/
 
 /*News*/
-.banner-block.news{margin-bottom:30px;background-position:right;}
-.banner-block.news>div.outblock{top:25%;}
+.banner-block.news{margin-bottom:30px;background-position:right;max-height:258px;}
+.banner-block.news>div.outblock{top:10%;}
 .news-outline{margin-bottom:50px;}
-.news-all-sum-block{padding-bottom:20px;}
+.news-all-sum-block{padding-bottom:0px;}
 .news-all-sum-main-block{width:274px;margin-right:20px;}
 .news-all-sum-main-block>div.pic{overflow:hidden;}
 .news-all-sum-main-block>div.pic>img{height:100%;}
 .news-all-sum-sub-block{max-width:435px;}
-.news-all-sum-sub-main{height:auto;max-height:200px;}
+.news-all-sum-sub-main{height:auto;max-height:118px;margin-bottom:45px;}
 .news-main.activity{width:calc(50% - 44px);margin:10px 10px;max-width:50%;}
 .news-all-sum-main-block.chat{width:100%;max-width:100%;margin-right:0px;margin-bottom:30px;}
 .news-all-sum-sub-block.chat{width:calc(100% - 30px);max-width:100%;}
+.news-all-sum-sub-main>div.main>div.title{font-size:18px;line-height:22px;}
+.news-all-sum-sub-main>div.main>div.date{font-size:14px;}
+.news-all-sum-main-block>div.title{font-size:18px;line-height:22px;}
+.news-all-sum-main-block>div.main{font-size:14px;margin-bottom:16px;}
+
 /*News*/
 
 /*personal*/
@@ -220,7 +225,7 @@
 
 .personal-take-cash-adress-main{height:auto;}
 .personal-take-cash-adress-main>input.main{width:calc(100% - 90px);margin-left:35px;}
-.personal-take-cash-adress-main>div.main{width:calc(100% - 95px);margin-left:40px;font-size:14px;line-height:40px;overflow-x:scroll;}
+.personal-take-cash-adress-main>div.main{width:calc(100% - 95px);margin-left:40px;font-size:14px;line-height:40px;}
 .personal-take-cash-adress-main>div.icon{width:24px;height:24px;border-radius:2px;margin-right:15px;}
 .personal-take-cash-adress-main>div.icon>svg{width:95%;height:95%;margin:0 auto;}
 .personal-take-cash-adress-main>div.title{font-size:14px;margin:0px;line-height:24px;}
@@ -236,7 +241,10 @@
 /*personal*/
 
 /*DashBoard*/
-.dashboard-chart-block{max-width:calc(60% - 44px);margin-right:8px;}
+.dashboard-chart-block{max-width:calc(60% - 44px);margin-right:8px;padding:20px 10px;max-height:unset;}
+.dashboard-chart-title>div.block>div.title>div.icon{width:14px;}
+.dashboard-chart-title>div.block{width:35%;margin-right:1%;}
+.dashboard-chart-title>div.block:nth-last-child(1){width:28%;}
 .dashboard-coin-block{max-width:calc(40% - 4px);}
 .refund-detail-block{width:100%;padding:0 0;}
 .dashboard-coin-block>div.exchange{width:calc(100% - 30px);padding:15px;}
@@ -248,20 +256,23 @@
 .dashboard-coin-block>div.earn>div.main>div.status>svg{display:block;position: relative;transform:translateY(75%);}
 
 .refund-detail-filter-block{display:none;}
-.refund-detail-info-block{display:none;}
-.mobile-refund-detail-info-block{display:block;}
+#refund-detail-web{display:none;}
+#refund-detail-mobile{display:block;}
 
 .dashboard-chart-filiter-block>div.menu{width:auto;margin-bottom:10px;}
 .dashboard-chart-filiter-block>div.menu>a{font-size:14px;}
 .dashboard-chart-filiter-block>div.btn>select{width:60px;}
 
 #container{height:200px;width:100%;max-width:740px;}
+
+#refund-detail-web{display:none;}
+
 /*DashBoard*/
 
 /*register*/
 .register-main-block{width:100%;height:auto;padding:50px 0 10px 0;}
 .register-kv-block{width:100%;height:400px;background-position:center -100px;}
-.register-kv-block>a.logo{display:none;}
+.register-kv-block>a.logo{display:none!important;}
 /*register*/
 
 
@@ -286,6 +297,7 @@
     .banner-block{max-height:518px;}
     .banner-block>div>div.title{font-size:28px;}
     .banner-block>div>div.sub{font-size:14px;margin-bottom:18px;}
+    
 
 
     /*Join*/
@@ -313,12 +325,11 @@
 
     /*News*/
     .news-title{font-size:36px;}
-    .news-main{width:100%;max-width:296px;height:auto;float:left;margin-right:20px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
-    .news-main:nth-last-child(1){margin-right:20px;}
+    .news-main{width:100%;max-width:calc(50% - 50px);height:auto;float:left;margin:0 10px;background: #151923;border-radius: 8px;padding:12px;margin-bottom:20px;}
     .news-main>div.pic{height:100%;max-height:240px;overflow:hidden;}
     .news-main>div.pic>img{height:100%;}
-    .outline.scroll{overflow-y:scroll;height:460px;}
-    .outblock.full-news{width:2000px;max-width:2000px;margin:0 0 0 2.5%;float:left;overflow-x:scroll;overflow-y:hidden;height:460px;}
+    .outline.scroll{height:auto;}
+    .outblock.full-news{width:auto;margin:0 0 0 2.5%;float:left;height:auto;}
     .news-outline{margin-bottom:50px;}
     .news-all-sum-sub-block.chat{display:none;}
     /*Footer*/
@@ -424,8 +435,8 @@
 .dashboard-coin-block{max-width:100%;}
 .refund-detail-block{width:100%;padding:0 0;}
 .refund-detail-filter-block{display:none;}
-.refund-detail-info-block{display:none;}
-.mobile-refund-detail-info-block{display:block;}
+#refund-detail-web{display:none;}
+#refund-detail-mobile{display:block;}
 .mobile-refund-main-block{width:calc(100% - 20px);margin:0 0 10px 0;padding:10px;}
 .mobile-refund-btn{width:calc(25% - 7.5px);font-size:12px;}
 
@@ -437,12 +448,14 @@
 .dashboard-chart-filiter-block>div.btn>select{width:79px;}
 
 #container{height:270px;width:100%;}
+#refund-detail-web{display:none;}
+
 /*DashBoard*/
 
 /*register*/
 .register-main-block{width:100%;height:auto;padding:50px 0 0 0;}
 .register-kv-block{width:100%;height:300px;background-position:center -70px;}
-.register-kv-block>a.logo{display:none;}
+.register-kv-block>a.logo{display:none!important;}
 /*register*/
 
 }
@@ -463,8 +476,9 @@
     
         /*Banner*/
         .banner-block{max-height:400px;}
-        .banner-block>div>div.title{font-size:28px;}
-        .banner-block>div>div.sub{font-size:14px;margin-bottom:18px;}
+        .banner-block>div>div.title{font-size:22px;}
+        .banner-block>div>div.sub{font-size:12px;margin-bottom:18px;}
+        .banner-block>div>div.outline>a.more{font-size:12px;width:92px;height:8px;line-height:8px;}
     
     
         /*Join*/
@@ -479,9 +493,8 @@
         /*Info*/
         .info-main-pic{width:100%;margin-right:0px;margin-top:-30px;}
         .info-main{width:100%;height:auto;float:left;}
-        .info-main>div.main>div{min-height:auto;margin-right:0px;margin-bottom:0px;padding:40px 10px 40px 10px;width:100%;display:none;}
-        .info-main>div.main>div.active{display:block;margin-bottom:30px;background-image: linear-gradient(to top, #3ea9cc, #62ffff);}
-        .info-main>div.main>div:nth-last-child(2){margin-bottom:0px;}
+        .info-main>div.main>div{min-height:auto;margin-right:0px;margin-bottom:30px;padding:40px 10px 40px 10px;width:100%;display:none;}
+        .info-main>div.main>div.active{display:block;background-image: linear-gradient(to top, #3ea9cc, #62ffff);}
         .info-main>div.main>div>div.title{width:100%;height:auto;float:left;font-size:16px;margin-bottom:15px;}
         .info-main>div.main>div>div.sub{width:100%;height:auto;float:left;font-size:14px;color: #E5E5E5;}
         .info-btn{font-size:17px;}
@@ -490,6 +503,7 @@
         .info-main-title>div{width:100%;text-align:center;}
         .info-main-title>div>div.title{font-size:36px;margin-bottom:20px;}
         .info-main-title>div>div.sub{font-size:14px;}
+        .info-slider{margin-top:-30px;position: relative;z-index: 1;}
         
     
         /*News*/
@@ -501,6 +515,7 @@
         .outline.scroll{overflow-y:hidden;}
         .outblock.full-news{width:100%;max-width:95%;margin:0 auto;display:block;float:none;overflow-x:hidden;overflow-y:hidden;height:auto;}
         .news-outline{margin-bottom:50px;}
+        .news-main{margin:0 0 20px 0;}
         /*Footer*/
         
          footer{width:calc(100% - 20px);margin-top:70px;padding:10px 10px 0 10px;}
@@ -564,6 +579,8 @@
 .news-all-sum-main-block.chat{width:100%;max-width:100%;margin-right:0px;margin-bottom:30px;}
 .news-all-sum-sub-block.chat{width:calc(100% - 30px);max-width:100%;}
 .news-all-sum-sub-block.chat{display:none;}
+.news-all-sum-main-block.chat>div.title{width:100%;height:auto;float:left;font-size:28px;margin-bottom:6px;color:white;font-weight:bold;}
+.news-all-sum-main-block.chat>div.date{width:100%;height:auto;float:left;font-size:14px;margin-bottom:30px;color:white;}
 /*News*/
 
 /*personal*/
@@ -614,8 +631,8 @@
 .dashboard-coin-block{max-width:100%;}
 .refund-detail-block{width:100%;padding:0 0;}
 .refund-detail-filter-block{display:none;}
-.refund-detail-info-block{display:none;}
-.mobile-refund-detail-info-block{display:block;}
+#refund-detail-web{display:none;}
+#refund-detail-mobile{display:block;}
 .mobile-refund-main-block{width:calc(100% - 20px);margin:0 0 10px 0;padding:10px;}
 .mobile-refund-btn{width:calc(25% - 7.5px);font-size:12px;}
 
@@ -628,17 +645,21 @@
 .dashboard-chart-filiter-block>div.menu{width:100%;}
 .dashboard-chart-title>div.block{width:100%;margin-right:0px;margin-bottom:20px;}
 .dashboard-chart-title>div.block:nth-last-child(1){margin-bottom:10px;}
-.dashboard-chart-block{max-height:1000px;}
+.dashboard-chart-block{max-height:unset;}
 .dashboard-chart-title>div.block>div.title>div.word{font-size:25px;}
 .dashboard-chart-title>div.block>div.sub{font-size:38px;}
 
 #container{height:280px;width:100%;}
+#refund-detail-web{display:none;}
+
+.refund-detail-menu-out{width:100%;height:45px;float:left;overflow-x:scroll;}
+.refund-detail-menu-block{height:33px;width:500px;}
 /*DashBoard*/
 
 /*register*/
 .register-main-block{width:100%;height:auto;padding:50px 0 0 0;}
 .register-kv-block{width:100%;height:200px;background-position:center -50px;}
-.register-kv-block>a.logo{display:none;}
+.register-kv-block>a.logo{display:none!important;}
 /*register*/
 
 

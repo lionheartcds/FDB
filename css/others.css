@@ -77,6 +77,8 @@
 .news-all-sum-block.chat{border-bottom:0px;}
 
 .news-all-sum-main-block.chat{max-width:877px;}
+.news-all-sum-main-block.chat>div.title{width:100%;height:auto;float:left;font-size:36px;margin-bottom:10px;color:white;font-weight:bold;line-height: inherit;}
+.news-all-sum-main-block.chat>div.date{width:100%;height:auto;float:left;font-size:16px;margin-bottom:20px;color:white;}
 .news-all-sum-main-block.chat>div.pic{height:430px;margin-bottom:30px;}
 .news-all-sum-main-block.chat>div.main{width:100%;height:auto;float:left;font-size:20px;margin-bottom:25px;}
 .news-all-sum-main-block.chat>div.area{width:100%;height:auto;float:left;margin-bottom:30px;}
@@ -151,7 +153,8 @@
 .refund-detail-block>div.title{width:100%;height:auto;float: left;margin-bottom:28px;}
 .refund-detail-block>div.title>span{width:auto;height:auto;float: left;font-size:30px;font-weight:700;line-height:35px;}
 .refund-detail-block>div.title>a{width:auto;height:auto;float:right;font-size:14px;padding:9px 30px;line-height:18px;border-radius:6px;background-image: linear-gradient(to top, #62ffff, #3ea9cc);color:#fff;}
-.refund-detail-menu-block{width:100%;height:auto;float: left;border-bottom:1px solid #C4C4C4;}
+.refund-detail-menu-block{width:100%;height:auto;float: left;}
+.refund-detail-menu-out{width:100%;height:auto;float: left;border-bottom:1px solid #C4C4C4;}
 .refund-detail-menu-block>a.menu{width:auto;height:auto;float: left;margin-right:36px;padding-bottom:11px;font-size:16px;color:#c4c4c4;transition:all 0.3s;}
 .refund-detail-menu-block>a.menu:nth-last-child(1){margin-right:0px;}
 .refund-detail-menu-block>a.menu:hover{border-bottom:4px solid #62ffff;box-sizing: border-box;color:#62ffff;}
@@ -217,7 +220,8 @@
 
 
 /*mobile*/
-.mobile-refund-detail-info-block{width:calc(100% - 28px);padding:0 14px;height:auto;float:left;margin-bottom:36px;display:none;}
+.mobile-refund-detail-info-block{width:calc(100% - 28px);padding:0 14px;height:auto;float:left;margin-bottom:36px;}
+#refund-detail-mobile{display:none;}
 .mobile-refund-btn{width:114px;height:28px;float:left;font-size:14px;line-height:28px;border-radius:7px;background-color:#1e2433;text-align:center;color:white;margin-right:10px;border:0;margin-bottom:19px;}
 .mobile-refund-btn:nth-last-child(1){margin-right:0px;}
 
@@ -235,6 +239,7 @@
 .mobile-refund-main-block>div.block>input[type=checkbox]{cursor: pointer;position: relative;}
 .mobile-refund-main-block>div.block>input[type=checkbox]:after {background-color:#3c4355;color: #fff;}
 
+.refund-detail-info-block.mobile{display:none;}
 /*Dashboard*/
 
 
@@ -325,6 +330,8 @@
 .personal-function-main>div.exchange-block>div.main>div>div.title{width:80px;font-size:14px;margin-right:9px;line-height:38px;float:left;}
 .personal-function-main>div.exchange-block>div.main>div>.input{width:calc(100% - 89px);height:38px;float:left;border:none;box-sizing: border-box;border-radius: 8px;color:#C4C4C4;padding-left:10px;background-color:#252c3d;}
 .take-cash-step-btn-block.personal{width:auto;float:right;}
+.take-cash-step-btn-block.personal-info{width:auto;float:left;position: relative;transform:translateX(-50%);left:50%;margin-top:28px;}
+
 .personal-function-line{width:100%;height:1px;float: left;background-color:#C4C4C4;margin:30px 0 20px 0;}
 .personal-function-tips{width:100%;height:auto;float: left;font-size:14px;margin-bottom:21px;}
 .personal-function-exchange-block{width:calc(100% - 20px);height:45px;background-color:rgba(237,239,244,0.4);float: left;margin-bottom:20px;padding:0 10px;}
@@ -333,12 +340,12 @@
 .personal-function-exchange-block>div>svg{position: relative;transform:translateY(50%);top:50%;float: left;}
 
 .personal-function-main>div.title.adress{margin-bottom:36px;}
-.personal-take-cash-adress-main{width:100%;height:63px;float: left;margin-bottom:29px;}
-.personal-take-cash-adress-main>div.icon{width:63px;height:63px;float:left;background: #FFFFFF;box-shadow: 0px 0px 4px #C4C4C4;border-radius:500px;margin-right:26px;}
+.personal-take-cash-adress-main{width:100%;height:50px;float: left;margin-bottom:29px;}
+.personal-take-cash-adress-main>div.icon{width:50px;height:50px;float:left;background:#1E2433;border-radius:8px;margin-right:26px;}
 .personal-take-cash-adress-main>div.icon>svg{position: relative;transform:translateY(-50%);top:50%;display:block;margin: 0 auto;}
-.personal-take-cash-adress-main>div.title{width:60px;height:auto;float: left;line-height:63px;margin-right:37px;font-size:22px;}
+.personal-take-cash-adress-main>div.title{width:60px;height:auto;float: left;line-height:50px;margin-right:37px;font-size:22px;}
 .personal-take-cash-adress-main>div.main{width:auto;height:auto;float: left;line-height:63px;margin-right:37px;font-size:18px;color:#828282;}
-.personal-take-cash-adress-main>input.main{width:600px;height:42px;float: left;line-height:42px;font-size:16px;color:#C4C4C4;margin:10.5px 0;border:none;background:#252c3d;box-sizing: border-box;border-radius: 8px;padding-left:10px;}
+.personal-take-cash-adress-main>input.main{width:600px;height:42px;float: left;line-height:42px;font-size:16px;color:#C4C4C4;margin:4px 0;border:none;background:#252c3d;box-sizing: border-box;border-radius: 8px;padding-left:10px;}
 .personal-take-cash-adress-main>a.btn{width:94px;height:35px;float:right;border-radius:6px;background-color:#333;color:#fff;line-height:35px;text-align:center;font-size:14px;margin-top:14px;}
 .personal-take-cash-adress-main>a.edit{width:auto;height:auto;float:right;}
 .personal-take-cash-adress-main>a.edit>svg{position: relative;transform:translateY(130%);top:50%;display:block;margin: 0 auto;}
